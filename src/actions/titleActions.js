@@ -6,10 +6,10 @@ export function toggleEditing() {
     return { type: TOGGLE_EDITING };
 }
 
-export const updateTitle = newTitle => {
-    return { type: UPDATE_TITLE, payload: newTitle };
-};
-
 export const newTitle = (value) => {
     return { type: UPDATE_NEW_TITLE, payload: value }
 }
+
+export const updateTitle = newTitle => {
+    return { type: UPDATE_TITLE, payload: newTitle };
+};

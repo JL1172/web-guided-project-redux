@@ -17,7 +17,8 @@ const titleReducer = (state = initialState, action) => {
       return {
         ...state,
         title: action.payload,
-        editing: false
+        editing: false,
+        newTitle : "",
       };
     case TOGGLE_EDITING:
       return {
