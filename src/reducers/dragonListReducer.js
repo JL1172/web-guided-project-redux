@@ -18,7 +18,7 @@ const dragonListReducer = (state = initialState, action) => {
         case ADD_MEMBER:
             return {
                 ...state,
-                member: [...state.members, newMember],
+                members: [...state.members, action.payload],
                 newMember: "",
             };
         default:
