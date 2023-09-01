@@ -5,5 +5,5 @@ import titleReducer from "./titleReducer"
 
 export const rootReducer = combineReducers({
     dragonList : dragonListReducer,
-    tite : titleReducer,
+    title : titleReducer,
 })
